@@ -1,0 +1,42 @@
+/* WeatherCard.css */
+
+.weather-card {
+  width: 300px;
+  margin: 20px;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.weather-card:hover {
+  transform: scale(1.02);
+}
+
+.card-header {
+  background-color: #3498db59;
+  color: white;
+  font-weight: bold;
+}
+
+.weather-icon img {
+  width: 70px;
+  height: 70px;
+}
+
+.weather-description p {
+  font-size: 14px;
+  color: #666;
+}
+
+.temperature-details p {
+  font-size: 18px;
+  color: #333;
+}
+
+@media (max-width: 576px) {
+  .weather-card {
+    width: 100%;
+  }
+}

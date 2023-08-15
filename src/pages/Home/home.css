@@ -1,0 +1,85 @@
+
+
+/* .myForm{
+  margin-left: 25%;
+  margin-top: 6%;
+} */
+.landingPage{
+  /* background-color: rgb(218, 231, 231); */
+
+}
+
+@media (max-width: 480px) {
+  .myForm{
+    margin-top: 10%; 
+  }
+}
+
+@media(max-width:480px){
+.inputForm{
+  margin-left: 18px;
+}
+}
+
+
+.form1{
+  margin-left: 18rem;
+  
+}
+
+
+@media(max-width:480px){
+.form1{
+  margin-left:0px;
+}
+}
+
+@media(max-width:950px){
+  .form1{
+    margin-left:3rem;
+  }
+  }
+
+  @media(min-width:760px) and (max-width:920px){
+    .form1{
+      margin-left:12rem;
+    }
+    }
+
+  @media(max-width:280px){
+    .form1{
+      margin-left:0px;
+      padding:0;
+    }
+    .button1{
+      margin-left: 17px;
+}
+    
+    }
+    
+
+  .button1{
+    padding-left:4px;
+  }
+
+  .forecastetData{
+    display: flex;
+  }
+
+
+@media(min-width:1024px)
+{
+  .forecastetData{
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    float:left;
+    margin-right: 3rem;
+    margin-left: 3.5rem;
+  }
+}
+
+.borderRadius{
+
+  border-radius: 14px;
+}

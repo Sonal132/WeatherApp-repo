@@ -1,0 +1,15 @@
+a:hover{
+    
+    text-decoration: underline;
+    
+}
+
+@media (max-width: 480px) {
+    .header1 {
+      
+      /* padding-left: 2rem; */
+      overflow: hidden;
+      
+    }
+}
+  
